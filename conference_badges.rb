@@ -22,3 +22,7 @@ attendees.each do |attender|
 end
 return room_assignments
 end
+
+def printer(attendees)
+  
+end
