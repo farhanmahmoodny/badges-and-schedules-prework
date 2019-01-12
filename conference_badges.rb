@@ -20,4 +20,5 @@ attendees.each do |attender|
   room_assignments.push("Hello, #{attender}! You'll be assigned to room #{counter}!")
   counter += 1
 end
+return room_assignments
 end
