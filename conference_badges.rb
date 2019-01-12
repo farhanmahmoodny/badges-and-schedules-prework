@@ -14,9 +14,10 @@ return badges
 end
 
 def assign_rooms(attendees)
+  room_assignments = []
   counter = 1
 attendees.each do |attender|
-  puts "Hello, #{attender}! You'll be assigned to room #{counter}!"
+  room_assignments.push("Hello, #{attender}! You'll be assigned to room #{counter}!")
   counter += 1
 end
 end
