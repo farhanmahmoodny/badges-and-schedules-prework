@@ -23,9 +23,7 @@ end
 return room_assignments
 end
 
-def printer(attendees)
-  counter = 0
-  until counter == badges.length
-  puts badges[counter]
-end
+def printer
+put batch_badge_creator(attendees)
+put assign_rooms(attendees)
 end
