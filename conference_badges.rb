@@ -29,3 +29,4 @@ def printer(attendees)
   puts room_assignments[counter]
   counter += 1
 end
+end
