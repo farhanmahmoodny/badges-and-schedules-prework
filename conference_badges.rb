@@ -10,4 +10,5 @@ def batch_badge_creator(attendees)
   badges.push(badge_maker(attendees[counter]))
   counter += 1
 end
+return badges
 end
