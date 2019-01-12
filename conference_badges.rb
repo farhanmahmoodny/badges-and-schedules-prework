@@ -26,4 +26,10 @@ end
 def printer(attendees)
 badges = batch_badge_creator(attendees)
 room_assignments = assign_rooms(attendees)
+counter = 0
+until counter == attendees.length
+puts badges[counter]
+puts room_assignments[counter]
+counter += 1
+end
 end
