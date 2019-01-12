@@ -23,7 +23,7 @@ end
 return room_assignments
 end
 
-def printer(attender)
-puts batch_badge_creator(attender)
-puts assign_rooms(attender)
+def printer(attendees)
+puts batch_badge_creator(attendese[0])
+puts assign_rooms(attendese[0])
 end
